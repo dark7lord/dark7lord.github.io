@@ -7,10 +7,19 @@
   border: 1px solid white;
   border-radius: 10px;
   padding: 25px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 .header h1 {
   color: white;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav ul li + li {
+  margin-left: 20px;
 }
 .main {
   max-width: 1440px;
@@ -18,4 +27,28 @@
   border-radius: 10px;
   padding: 25px;
   margin: 0 auto;
+}
+.portfolio {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+.portfolio h2 {
+  margin-top: 0;
+}
+.portfolio ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.portfolio__card {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 25px;
+}
+.portfolio__card h3 {
+  margin-top: 0;
+}
+.portfolio__card + .portfolio__card {
+  margin-top: 20px;
 }
